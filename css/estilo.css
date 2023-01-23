@@ -46,5 +46,60 @@ body{
 }
 
 .conteudo{
+    border: 3px solid white;
+    padding-top: 139px;
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+
+    border: 3px solid skyblue;
+
+    align-items: center; 
+    justify-content: space-between;
 
 }
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+}
+
+.conteudo-principal-escrito-pretitulo{
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.conteudo-principal-escrito-titulo{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.conteudo-principal-escrito-subtitulo{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.conteudo-principal-escrito-botao{
+
+}
+
+.conteudo-principal-imagem{
+    width: 453px;
+    
+
+}
+
