@@ -45,7 +45,7 @@ body {
   border: 3px solid white;
   padding-top: 140px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .conteudo-inicio {
@@ -138,4 +138,35 @@ body {
 
 .conteudo-inicio-direita-imagem {
   width: 540px;
+}
+
+.conteudo-sobremim {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+.conteudo-sobremim .conteudo-sobremim-textos {
+  display: flex;
+  flex-direction: column;
+  border: white solid 2px;
+  width: 400px;
+}
+.conteudo-sobremim .conteudo-sobremim-titulo {
+  color: white;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+.conteudo-sobremim .conteudo-sobremim-paragrafo {
+  color: white;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+.conteudo-sobremim img {
+  display: block;
+  width: 400px;
 }/*# sourceMappingURL=style.css.map */
