@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Rajdhani:wght@500;700&display=swap');
+/* font-family: 'Play', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #282828;
+    padding-left: 400px; 
+    padding-right: 400px;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+
+    /* border: 3px solid white; */
+    
+    padding-top: 30px; 
+    
+}
+
+.cabecalho-img{
+    width: 182px;
+}
+
+.cabecalho-menu{
+    display: flex; 
+    gap: 20px;
+   /* border: 3px solid red; */
+    
+}
+
+.cabecalho-menu-item{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.conteudo{
+    border: 3px solid white;
+
+    padding-top: 140px;
+    
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.conteudo-inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 70px;
+
+    width: 100%;
+
+    border: 3px solid skyblue;
+
+}
+
+.conteudo-inicio-esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    border: 3px solid khaki;
+}
+
+.conteudo-inicio-textos{
+    
+
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+
+.conteudo-inicio-textos-pretitulo{
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  
+
+}
+
+.conteudo-inicio-textos-titulo{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.conteudo-inicio-textos-subtitulo{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31px;
+    
+    
+}
+
+.conteudo-inicio-botao{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+
+.conteudo-inicio-links{
+    border: 3px solid chartreuse;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+       
+        a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            color: white;
+
+            font-family: 'Play', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+
+            border: 1px solid #FFFFFF;
+            border-radius: 77px;
+            padding:8px;
+            padding-left: 35px;
+            padding-right: 35px; 
+
+                img{
+                    filter: invert(100%) sepia(5%) saturate(2%) hue-rotate(343deg) brightness(115%) contrast(100%);
+                }
+                
+                &:hover {
+                    background-color: #FFFFFF;
+                    color: #282828;
+                    img{
+                        filter: invert(13%) sepia(0%) saturate(31%) hue-rotate(173deg) brightness(108%) contrast(95%);
+                    }
+                    
+                    
+
+                }
+       
+
+        }
+}
+
+
+
+
+#linkedin{
+    padding-top: 3px;
+}
+
+
+.conteudo-inicio-direita-imagem{
+    width: 540px;
+
+    
+}
+
+
